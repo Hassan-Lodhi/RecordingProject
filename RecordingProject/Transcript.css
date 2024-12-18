@@ -1,0 +1,62 @@
+/* Base styling for body */
+body {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Main container styling */
+.text-container {
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Saved text files list styling */
+.text-files-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.text-card {
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  background-color: #80a2e6;
+  text-align: left;
+  transition: transform 0.2s;
+}
+
+/* Play button styling */
+.play-button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ec2c0a;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.play-button:hover {
+  background-color: #218838;
+}
+
+.text-card:hover {
+  transform: scale(1.03);
+}
+
+.text-card h3 {
+  margin: 0;
+  font-size: 1.1em;
+}
